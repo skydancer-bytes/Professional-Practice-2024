@@ -13,8 +13,9 @@ This research aims to explore the correlation between educational attainment, li
 Logistical regression was chosen for it ability to affirn binary classifications. EDA explores data structures and potential biases using tools like correlation matrices, scatter plots, and histograms to assess data distribution and relationships. Ethical considerations include responsibly handling detected biases to ensure model integrity. Severe multicollinearity was identified, risking model overfitting. To address this, variables were integrated into a Socio-Economic Status (SES) metric. Principal Component Analysis (PCA) was utilised to mitigate multicollinearity by transforming correlated variables into uncorrelated components, thus enhancing model stability and reliability. This approach upholds ethical standards by ensuring data accuracy and fairness in modeling outcomes.
 
 ## Data Analysis
-Data Analysis 
+
 Hypothesis 
+
 H0 : Null Hypothesis: The quality of an individual’s support network and educational attainment does not influence life satisfaction.
 H1 : Alternative Hypothesis: A stronger quality of support network and higher educational attainment is positively associated with higher life satisfaction.
 Methodology
