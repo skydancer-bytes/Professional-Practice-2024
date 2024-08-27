@@ -24,10 +24,20 @@ Methodology
 
 EDA (Exploratory Data Analysis)
 
-EDA is an important step to  understand important structures of the data. It can help in detecting any bias which leans toward ethical considerations of responsibly building a model. Visualisations such as Correlation Matrix, Scatter Plots and Histograms were chosen to find the main characteristics of the distribution of data. There are crucial steps such as Multicollinearity checks which statistically calculate the relationships between variables which may skew building a logistic regression model. PCA (Principal Component Analysis) was determined to be the most appropriate mitigate multicollinearity.  
+EDA is an important step to  understand important structures of the data. It can help in detecting any bias which leans toward ethical considerations of responsibly building a model. 
+
+Interpolation wa sutilised to replace a NULL value
+
+Visualisations such as Correlation Matrix, Scatter Plots and Histograms were chosen to find the main characteristics of the distribution of data. There are crucial steps such as Multicollinearity checks which statistically calculate the relationships between variables which may skew building a logistic regression model. 
+
+PCA (Principal Component Analysis) was determined to be the most appropriate to mitigate multicollinearity.  
+
 A correlation matrix is an efficient visual statistical representation of the correlation between two variables. The range is between 1 and -1. 1 being a perfect correlation, 0 is no correlation and -1 is a negative influenced correlation. E.g. if one variable increases the other will decrease.
+
 Scatter plots reveal a positive but not strongly linear relationship between Quality of Support Network and Educational Attainment, with noticeable clustering among countries with high scores in both metrics. Histograms indicate a positive skewness across Educational Attainment and Quality of Support Network, whereas Life Satisfaction scores are more varied, predominantly leaning towards higher values.
+
 The multicollinearity check revealed severe multicollinearity, increasing the risk of overfitting and affecting the model’s sensitivity to changes. To address this, the study will combine the predictors into a Socio-Economic Status (SES) measure, incorporating both quality of support network and educational attainment to create a more streamlined and effective model.
+
 PCA (Principal Component Analysis) combines multiple correlated variables into uncorrelated principal components. PCA mitigates multicollinearity, which can stabilise regression coefficients and improve model reliability.
 
 ## Results
@@ -41,7 +51,9 @@ PCA (Principal Component Analysis) combines multiple correlated variables into u
 
 ## Recommendations
 We can confidently reject the null hypothesis in favour of H1.
+
 H1: Higher support network quality and educational attainment positively impact life satisfaction.
+
 This study has statistically verified the positive links between these variables. The unexpected negative coefficients observed may stem from multicollinearity, which contrasts with domain expectations and prior analyses suggesting positive impacts in pair-plots. 
 Further iterative analysis is needed to refine feature engineering and improve model interpretation. Enhanced coefficient clarity will help stakeholders better comprehend the model's complexities. The model's robustness is affirmed by strong ROC curve and confusion matrix results, underscoring its accuracy in predicting life satisfaction.
 
