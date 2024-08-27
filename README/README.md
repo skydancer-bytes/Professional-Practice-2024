@@ -26,7 +26,7 @@ EDA (Exploratory Data Analysis)
 
 EDA is an important step to  understand important structures of the data. It can help in detecting any bias which leans toward ethical considerations of responsibly building a model. 
 
-Interpolation wa sutilised to replace a NULL value
+Mean interpolation was utilised to replace a NULL value
 
 Visualisations such as Correlation Matrix, Scatter Plots and Histograms were chosen to find the main characteristics of the distribution of data. There are crucial steps such as Multicollinearity checks which statistically calculate the relationships between variables which may skew building a logistic regression model. 
 
