@@ -17,9 +17,13 @@ Logistical regression was chosen for it ability to affirn binary classifications
 Hypothesis 
 
 H0 : Null Hypothesis: The quality of an individual’s support network and educational attainment does not influence life satisfaction.
+
 H1 : Alternative Hypothesis: A stronger quality of support network and higher educational attainment is positively associated with higher life satisfaction.
+
 Methodology
+
 EDA (Exploratory Data Analysis)
+
 EDA is an important step to  understand important structures of the data. It can help in detecting any bias which leans toward ethical considerations of responsibly building a model. Visualisations such as Correlation Matrix, Scatter Plots and Histograms were chosen to find the main characteristics of the distribution of data. There are crucial steps such as Multicollinearity checks which statistically calculate the relationships between variables which may skew building a logistic regression model. PCA (Principal Component Analysis) was determined to be the most appropriate mitigate multicollinearity.  
 A correlation matrix is an efficient visual statistical representation of the correlation between two variables. The range is between 1 and -1. 1 being a perfect correlation, 0 is no correlation and -1 is a negative influenced correlation. E.g. if one variable increases the other will decrease.
 Scatter plots reveal a positive but not strongly linear relationship between Quality of Support Network and Educational Attainment, with noticeable clustering among countries with high scores in both metrics. Histograms indicate a positive skewness across Educational Attainment and Quality of Support Network, whereas Life Satisfaction scores are more varied, predominantly leaning towards higher values.
