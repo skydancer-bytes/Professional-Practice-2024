@@ -58,4 +58,5 @@ This study has statistically verified the positive links between these variables
 Further iterative analysis is needed to refine feature engineering and improve model interpretation. Enhanced coefficient clarity will help stakeholders better comprehend the model's complexities. The model's robustness is affirmed by strong ROC curve and confusion matrix results, underscoring its accuracy in predicting life satisfaction.
 
 https://www.kaggle.com/datasets/darrylljk/better-life-index-2024-life-satisfaction 
+
 https://skydancer-bytes.github.io/SarahBytes.Github.io/
